@@ -29,3 +29,75 @@
     justify-content: center;
     }
 }
+@media(max-width:390px){
+    .btn{
+        margin-left: 45px;
+    }
+    .header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+}
+@media(max-width:378px){
+    .container{
+      padding: 0 0;
+    }
+span{
+  margin-right: 30px;
+}
+ #curPlayer{
+     margin-left: 13px;
+ }
+ #area{
+     margin-right: 160px;
+     min-width: 156px;
+     width: 100%;
+ }
+}
+
+@media(max-width:1250px){
+.btn{
+margin-left: 200px;
+}
+}
+@media(max-width:557px){
+    .btn{
+    margin-left: 170px;
+    margin: 0 0;
+    }
+    .stat{
+        column-gap: 50px;
+        margin-bottom: 50px;
+    }
+    }
+    @media(max-width:509px){
+            .content{
+                column-gap: 50px;
+                margin-left: 50px;
+            }
+        }
+
+        @media(max-width:434px){
+            .container{
+          margin: 0 0;
+          padding: 0 0;
+
+            }
+        }
+        @media(max-width:400px){
+            .container{
+          margin: 0 0;
+          padding: 0 0;
+          
+            }
+        }
+        @media(max-width:376px){
+            span{
+          display: none;
+            }
+            #area{
+                margin-right: 50px;
+            }
+        }
+    
